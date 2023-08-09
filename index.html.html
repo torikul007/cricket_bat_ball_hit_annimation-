@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        body{
+            background-color: white;
+        }
+        .bat{
+            transition: transform .2s  ease-in-out .2s;
+
+        }
+        .bat:hover{
+            transform: rotate( -60deg);
+            transform-origin: 100% 0%;
+        }
+        .ball{
+          background-color: red;
+          position: relative;
+            height: 50px;
+            width: 50px;
+            border-radius: 50%;
+            left: 760px;
+           transition: transform 2s ease-in-out .3s;
+        }
+        .field:hover .ball{
+            transform: translate(1000px,-300px)
+
+        }
+        
+
+    </style>
+    <title>Document</title>
+</head>
+<body>
+    <div class="field">
+        <img  class="bat" src="img/DREAM_04-600x600_900x.webp" alt="">
+        <div class="ball">
+
+        </div>
+    </div>
+    
+    
+</body>
+</html>
